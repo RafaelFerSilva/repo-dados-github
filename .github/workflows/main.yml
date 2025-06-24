@@ -32,7 +32,7 @@ jobs:
       - name: Exibindo os valores individualmente
         run: |
           echo "Estes são os valores passados nos inputs"
-          echo: "Versao: ${{ inputs.versao }}"
-          echo: "Número card: ${{ inputs.numero_card }}"
-          echo: "Fazer deploy: ${{ inputs.fazer_deploy }}"
-          echo: "Ambiente: ${{ inputs.ambiente }}"
+          echo "Versao: ${{ inputs.versao }}"
+          echo "Número card: ${{ inputs.numero_card }}"
+          echo "Fazer deploy: ${{ inputs.fazer_deploy }}"
+          echo "Ambiente: ${{ inputs.ambiente }}"
